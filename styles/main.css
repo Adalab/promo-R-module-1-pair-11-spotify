@@ -1,7 +1,57 @@
-header {
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.logo{
+    height: 30px;
+}
+
+.header .list-menu {
+    color: white;
+}
+
+.menu {
+    display:flex;
+}
+
+.list-li{
+    padding: 1%;
+    font-size:smaller;
+    font-weight: bold;
+    /* tenemos que reubicar el menu */
+}
+
+.section-1 {
+    /* los colores no son los exactos */
+    /* hay que modificar los tamaños de las letras */
+    background-color: rgb(51, 123, 186);
+    background-image: url(../img/premium_dancer.png);
+    /* se repite la muchacha , RESOLVER */
+    width: auto;
+    height: 500px;
+    color: white;
+}
+
+.button {
+    background-color:rgba(26, 228, 59, 0.267);
+    color: white;
+    border:none;
+}
+
+.footer {
     background-color: black;
 }
 
-.list-menu {
-    color: white;
+.footer ul {
+    color:white;
 }
