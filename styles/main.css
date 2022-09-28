@@ -36,16 +36,55 @@ html, body, html * {
     /* hay que modificar los tamaños de las letras */
     background-color: rgb(51, 123, 186);
     background-image: url(../img/premium_dancer.png);
-    /* se repite la muchacha , RESOLVER */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 34%;
     width: auto;
     height: 500px;
     color: white;
+
+
+}
+
+.letras{
+    width: 81%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .button {
     background-color:rgba(26, 228, 59, 0.267);
     color: white;
+    font-weight: bold;
     border:none;
+    border-radius: 10px;
+    padding: 10px;
+    /* necesitamos que el botón ocupe solo su contenido */
+
+}
+
+.titulo {
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.letraPequena {
+    font-size: 90%;
+    width: 70%;
+}
+
+.articulos {
+    display:flex;
+    justify-content: space-between;
 }
 
 .footer {
