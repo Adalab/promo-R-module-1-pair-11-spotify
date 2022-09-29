@@ -129,7 +129,7 @@ html, body, html * {
 /* aplicar padding a cada li, que sería cada uno un enlace */
 
 .footer2 {
-
+    width: 50%;
 }
 
 /* FALTA EJERCICIO RESPONSIVE */
