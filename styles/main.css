@@ -10,6 +10,8 @@ html, body, html * {
     justify-content: space-between;
     align-items: center;
     padding: 2%;
+    position: sticky;
+    top: 0;
 }
 
 .logo{
@@ -28,7 +30,7 @@ html, body, html * {
     padding: 1%;
     font-size:smaller;
     font-weight: bold;
-    /* tenemos que reubicar el menu */
+    /* tenemos que reubicar el menu. Aumentar width */
 }
 
 .section-1 {
@@ -42,9 +44,8 @@ html, body, html * {
     width: auto;
     height: 500px;
     color: white;
-
-
 }
+
 
 .letras{
     width: 81%;
@@ -82,15 +83,53 @@ html, body, html * {
     width: 70%;
 }
 
+.titulo-articulos {
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
 .articulos {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 70px;
+
+}
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.texto-articulos {
+    text-align: center;
 }
 
 .footer {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer ul {
     color:white;
 }
+
+.footer li {
+    font-size: 10px;
+}
+
+.footer1 {
+    display: flex;
+    padding: 10px;
+    width: 50%;
+}
+/* aplicar padding a cada li, que sería cada uno un enlace */
+
+.footer2 {
+
+}
+
+/* FALTA EJERCICIO RESPONSIVE */
