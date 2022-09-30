@@ -20,6 +20,10 @@ html, body, html * {
 
 .header .list-menu {
     color: white;
+    width: 50%;
+    display:flex;
+    justify-content: right;
+    /* estamos intentando que iniciar sesion no se separe en dos lineas */
 }
 
 .menu {
@@ -28,15 +32,14 @@ html, body, html * {
 
 .list-li{
     padding: 1%;
-    font-size:smaller;
+    font-size:10px;
     font-weight: bold;
     /* tenemos que reubicar el menu. Aumentar width */
 }
 
 .section-1 {
     /* los colores no son los exactos */
-    /* hay que modificar los tamaños de las letras */
-    background-color: rgb(51, 123, 186);
+    background-color: #1d75de;
     background-image: url(../img/premium_dancer.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -58,14 +61,16 @@ html, body, html * {
 }
 
 .button {
-    background-color:rgba(26, 228, 59, 0.267);
+    background-color:#1ed760;
     color: white;
     font-weight: bold;
     border:none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
-    /* necesitamos que el botón ocupe solo su contenido */
-
+    padding-left: 30px;
+    padding-right: 30px;
+    position:absolute;
+    left: 20px;
 }
 
 .titulo {
